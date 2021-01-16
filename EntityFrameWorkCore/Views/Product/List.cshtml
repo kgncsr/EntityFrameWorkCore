@@ -1,0 +1,18 @@
+﻿@model IEnumerable<Product>
+
+
+@{ ViewData["Title"] = "List"; }
+
+<h2>List</h2>
+<br />
+
+@foreach (var item in Model)
+{
+    <h2>@item.Name</h2>
+    <h4>@item.Category</h4>
+    <h5>@item.Price</h5>
+    <a asp-action="Details" asp-controller="Product" asp-route-id="@item.ProductId">Details</a>
+    <a asp-action="Delete" asp-controller="Product" asp-route-id="@item.ProductId">Delete</a>
+  
+}
+
