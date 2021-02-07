@@ -25,7 +25,7 @@ namespace EntityFrameWorkCore.Context
                     new Product() { Name = "Product Name 3", Description = "Product Description 3", Price = 35, Category = "Product Category 3" },
                     new Product() { Name = "Product Name 4", Description = "Product Description 4", Price = 45, Category = "Product Category 4" },
                     new Product() { Name = "Product Name 5", Description = "Product Description 5", Price = 55, Category = "Product Category 5" },
-                    new Product() { Name = "Product Name 6", Description = "Product Description 6", Price = 165, Category = "Product Category 6" }
+                    new Product() { Name = "Product Name 6", Description = "Product Description 6", Price = 165, Category = "Product Categor 6" }
                 );
 
                 context.SaveChanges();
